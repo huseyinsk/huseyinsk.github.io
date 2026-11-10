@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hüseyin Sarıkaya - Yazılım Mühendisi | Kişisel Portfolio Web Sitesi">
+    <meta name="keywords"
+        content="Hüseyin Sarıkaya, Yazılım Mühendisi, Python, Django, FastAPI, React Native, Portfolio">
+    <meta name="author" content="Hüseyin Sarıkaya">
+    <title>Hüseyin Sarıkaya | Yazılım Mühendisi</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- AOS (Animate On Scroll) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>HS<span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#hero" class="nav-link active">Ana Sayfa</a></li>
+                <li><a href="#about" class="nav-link">Hakkımda</a></li>
+                <li><a href="#education" class="nav-link">Eğitim</a></li>
+                <li><a href="#experience" class="nav-link">Deneyim</a></li>
+                <li><a href="#skills" class="nav-link">Yetenekler</a></li>
+                <li><a href="#contact" class="nav-link">İletişim</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Menüyü aç/kapa">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="hero">
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
+                <p class="hero-greeting">Merhaba, ben</p>
+                <h1 class="hero-name">Hüseyin <span class="highlight">Sarıkaya</span></h1>
+                <div class="hero-title-wrapper">
+                    <span class="hero-title-prefix">&gt;</span>
+                    <h2 class="hero-title">Yazılım Mühendisi</h2>
+                </div>
+                <p class="hero-description">
+                    Yazılım Mühendisliği öğrencisi olarak Python, Django, FastAPI ve React Native
+                    teknolojileriyle modern, ölçeklenebilir ve kullanıcı odaklı çözümler geliştiriyorum.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> İletişime Geç
+                    </a>
+                    <a href="#experience" class="btn btn-outline">
+                        <i class="fas fa-briefcase"></i> Deneyimlerim
+                    </a>
+                </div>
+                <div class="hero-socials">
+                    <a href="https://github.com/huseyinsk" target="_blank" rel="noopener noreferrer"
+                        aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/huseyinsarikaya/" target="_blank" rel="noopener noreferrer"
+                        aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:huseyin.sarikaya77@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                <div class="hero-image-ring"></div>
+                <div class="hero-image-ring ring-2"></div>
+                <img src="assets/profile.jpg" alt="Hüseyin Sarıkaya" class="hero-image">
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator" aria-label="Aşağı kaydır">
+            <div class="mouse">
+                <div class="mouse-wheel"></div>
+            </div>
+            <span>Keşfet</span>
+        </a>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number"></span> Hakkımda
+            </h2>
+            <div class="about-grid">
+                <div class="about-text" data-aos="fade-right" data-aos-delay="100">
+                    <p>
+                        Malatya Turgut Özal Üniversitesi <strong>Yazılım Mühendisliği</strong> 4. sınıf
+                        öğrencisiyim. Lisans eğitimim boyunca edindiğim teorik altyapıyı ve çeşitli projelerde
+                        geliştirdiğim pratik becerilerimi kurumsal projelerde uygulamak konusunda son derece istekliyim.
+                    </p>
+                    <p>
+                        Yoğun çalışma temposuna hızla uyum sağlayabilen, <strong>problem çözme</strong> ve
+                        <strong>analitik düşünme</strong> becerileri yüksek bir yazılım mühendisi adayıyım.
+                        Deneyimli ekiplerle çalışarak mesleki gelişimimi sürdürmeyi hedefliyorum.
+                    </p>
+                    <div class="about-info-grid">
+                        <div class="about-info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span class="info-label">Konum</span>
+                                <span class="info-value">Kağıthane, İstanbul</span>
+                            </div>
+                        </div>
+                        <div class="about-info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <span class="info-label">Eğitim</span>
+                                <span class="info-value">Yazılım Mühendisliği</span>
+                            </div>
+                        </div>
+                        <div class="about-info-item">
+                            <i class="fas fa-calendar-alt"></i>
+                            <div>
+                                <span class="info-label">Doğum Tarihi</span>
+                                <span class="info-value">12 Temmuz 2003</span>
+                            </div>
+                        </div>
+                        <div class="about-info-item">
+                            <i class="fas fa-language"></i>
+                            <div>
+                                <span class="info-label">Diller</span>
+                                <span class="info-value">Türkçe, İngilizce</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats" data-aos="fade-left" data-aos-delay="200">
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fas fa-code"></i></div>
+                        <h3 class="stat-number" data-count="3">4</h3>
+                        <p class="stat-label">Staj & İş Deneyimi</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fas fa-university"></i></div>
+                        <h3 class="stat-number" data-count="2">2</h3>
+                        <p class="stat-label">Üniversite</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fas fa-laptop-code"></i></div>
+                        <h3 class="stat-number" data-count="10">+20</h3>
+                        <p class="stat-label">Teknoloji & Araç</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fas fa-star"></i></div>
+                        <h3 class="stat-number" data-count="3" data-suffix=".22">3.20</h3>
+                        <p class="stat-label">GANO / 4.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== EDUCATION SECTION ========== -->
+    <section class="section education" id="education">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number"></span> Eğitim
+            </h2>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-dot">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Malatya Turgut Özal Üniversitesi</h3>
+                            <span class="timeline-badge">2024 - 2027</span>
+                        </div>
+                        <h4>Mühendislik Fakültesi / Yazılım Mühendisliği</h4>
+                        <div class="gpa-bar">
+                            <div class="gpa-info">
+                                <span>GANO</span>
+                                <span class="gpa-value">3.22 / 4.00</span>
+                            </div>
+                            <div class="gpa-track">
+                                <div class="gpa-fill gpa-fill-green" style="width: 80.5%;" data-width="80.5"></div>
+                            </div>
+                        </div>
+                        <span class="timeline-status active">
+                            <i class="fas fa-circle"></i> Devam Ediyor
+                        </span>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-dot">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Iğdır Üniversitesi</h3>
+                            <span class="timeline-badge">2023 - 2024</span>
+                        </div>
+                        <h4>Mühendislik Fakültesi / Yazılım Mühendisliği</h4>
+                        <div class="gpa-bar">
+                            <div class="gpa-info">
+                                <span>GANO</span>
+                                <span class="gpa-value">3.33 / 4.00</span>
+                            </div>
+                            <div class="gpa-track">
+                                <div class="gpa-fill gpa-fill-green" style="width: 83.25%;" data-width="83.25"></div>
+                            </div>
+                        </div>
+                        <span class="timeline-status completed">
+                            <i class="fas fa-check-circle"></i> Yatay Geçiş ile Ayrıldı
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== EXPERIENCE SECTION ========== -->
+    <section class="section experience" id="experience">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number"></span> Deneyim
+            </h2>
+            <div class="experience-grid">
+
+                <!-- MTÜ Dijital Dönüşüm Ofisi -->
+                <div class="exp-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="exp-card-header">
+                        <div class="exp-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="exp-header-info">
+                            <h3>MTÜ Dijital Dönüşüm Ofisi</h3>
+                            <span class="exp-duration"><i class="fas fa-clock"></i> 1 Yıl</span>
+                        </div>
+                        <span class="exp-type fulltime">Tam Zamanlı</span>
+                    </div>
+                    <div class="exp-card-body">
+                        <p>
+                            Üniversitemizin Dijital Dönüşüm Ofisi çatısı altında kurumsal yazılım ihtiyaçlarına
+                            yönelik projeler geliştirdim. Canlıya aldığım
+                            <strong>Etik Kurul Sistemine</strong> etikkurul.ozal.edu.tr adresinden ulaşabilirsiniz.
+                        </p>
+                        <p>
+                            Aktif olarak Python ile bir <strong>Üretken Yapay Zeka (Generative AI)</strong>
+                            projesi geliştirmekteyim.
+                        </p>
+                    </div>
+                    <div class="exp-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Generative AI</span>
+                        <span class="tag">Django</span>
+                        <span class="tag">Kurumsal Yazılım</span>
+                    </div>
+                </div>
+
+                <!-- DEPİXEN -->
+                <div class="exp-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="exp-card-header">
+                        <div class="exp-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <div class="exp-header-info">
+                            <h3>DEPİXEN</h3>
+                            <span class="exp-duration"><i class="fas fa-clock"></i> 1 Ay · Zorunlu Staj</span>
+                        </div>
+                        <span class="exp-type internship">Staj</span>
+                    </div>
+                    <div class="exp-card-body">
+                        <p>
+                            DevOps altyapıları ve bulut bilişim mimarileri üzerinde pratik deneyim kazandım.
+                            <strong>Kubernetes</strong> küme kurulumu, <strong>ArgoCD</strong> ile GitOps entegrasyonu,
+                            Docker container yapılandırmaları, Bitbucket CI/CD güvenlik süreçleri ve
+                            <strong>AWS EKS/VPC</strong> altyapı dağıtımları konularında çalışmalar yürüttüm.
+                        </p>
+                        <p>
+                            Development ekibine dahil olarak PostgreSQL, Go backend mimarisi ve Python
+                            <strong>FastAPI / LangGraph</strong> kullanarak Yapay Zeka Destekli Log Analiz Sisteminin
+                            uçtan uca (E2E) geliştirilmesinde görev aldım.
+                        </p>
+                    </div>
+                    <div class="exp-tags">
+                        <span class="tag">Kubernetes</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">AWS</span>
+                        <span class="tag">FastAPI</span>
+                        <span class="tag">LangGraph</span>
+                        <span class="tag">Go</span>
+                        <span class="tag">PostgreSQL</span>
+                    </div>
+                </div>
+
+                <!-- OXERAS -->
+                <div class="exp-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="exp-card-header">
+                        <div class="exp-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div class="exp-header-info">
+                            <h3>OXERAS Consulting</h3>
+                            <span class="exp-duration"><i class="fas fa-clock"></i> 1 Ay · Zorunlu Staj</span>
+                        </div>
+                        <span class="exp-type internship">Staj</span>
+                    </div>
+                    <div class="exp-card-body">
+                        <p>
+                            SAP/BW/BO/Analytic ve <strong>İş Zekası</strong> üstüne yoğunlaşan şirkette staj sürecim
+                            boyunca bu kavramların detaylarına inerek veritabanı üstünde filtrelendirme ve bu
+                            filtrelendirmenin sonucunda raporlama işlemleri gibi işlemlerde rol aldım.
+                        </p>
+                    </div>
+                    <div class="exp-tags">
+                        <span class="tag">SAP</span>
+                        <span class="tag">Business Intelligence</span>
+                        <span class="tag">Raporlama</span>
+                        <span class="tag">Veritabanı</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SKILLS SECTION ========== -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number"></span> Yetenekler
+            </h2>
+            <div class="skills-grid">
+
+                <!-- Python -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-category-header">
+                        <div class="skill-icon python-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <h3>Python</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-badge">OOP</span>
+                        <span class="skill-badge">Django</span>
+                        <span class="skill-badge">FastAPI</span>
+                        <span class="skill-badge">LangChain</span>
+                        <span class="skill-badge">Pandas</span>
+                    </div>
+                </div>
+
+                <!-- Web & Mobil -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-category-header">
+                        <div class="skill-icon web-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>Web & Mobil</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-badge">React Native</span>
+                        <span class="skill-badge">Node.js</span>
+                        <span class="skill-badge">JavaScript</span>
+                        <span class="skill-badge">HTML / CSS</span>
+                    </div>
+                </div>
+
+                <!-- Java -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <div class="skill-category-header">
+                        <div class="skill-icon java-icon">
+                            <i class="fab fa-java"></i>
+                        </div>
+                        <h3>Java</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-badge">OOP</span>
+                    </div>
+                </div>
+
+                <!-- Database -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                    <div class="skill-category-header">
+                        <div class="skill-icon db-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>Veritabanı</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-badge">PostgreSQL</span>
+                        <span class="skill-badge">MSSQL</span>
+                        <span class="skill-badge">MySQL</span>
+                    </div>
+                </div>
+
+                <!-- DevOps & Cloud -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="500">
+                    <div class="skill-category-header">
+                        <div class="skill-icon devops-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3>DevOps & Cloud</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-badge">Docker</span>
+                        <span class="skill-badge">Kubernetes</span>
+                        <span class="skill-badge">AWS</span>
+                        <span class="skill-badge">CI/CD</span>
+                    </div>
+                </div>
+
+                <!-- AI / ML -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="600">
+                    <div class="skill-category-header">
+                        <div class="skill-icon ai-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>Yapay Zeka</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-badge">LangChain</span>
+                        <span class="skill-badge">LangGraph</span>
+                        <span class="skill-badge">Generative AI</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">
+                <span class="title-number"></span> İletişim
+            </h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+                Benimle iletişime geçmek ister misiniz? Aşağıdaki kanallardan bana ulaşabilirsiniz.
+            </p>
+            <div class="contact-grid">
+                <a href="mailto:huseyin.sarikaya77@gmail.com" class="contact-card" data-aos="fade-up"
+                    data-aos-delay="100">
+                    <div class="contact-card-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>E-Posta</h3>
+                    <p>huseyin.sarikaya77@gmail.com</p>
+                </a>
+                <a href="tel:+905362728011" class="contact-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="contact-card-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Telefon</h3>
+                    <p>+90 536 272 80 11</p>
+                </a>
+                <a href="https://github.com/huseyinsk" target="_blank" rel="noopener noreferrer" class="contact-card"
+                    data-aos="fade-up" data-aos-delay="300">
+                    <div class="contact-card-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3>GitHub</h3>
+                    <p>github.com/huseyinsk</p>
+                </a>
+                <a href="https://www.linkedin.com/in/huseyinsarikaya/" target="_blank" rel="noopener noreferrer"
+                    class="contact-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="contact-card-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <p>linkedin.com/in/huseyinsarikaya</p>
+                </a>
+                <a href="https://maps.google.com/?q=Kağıthane,İstanbul" target="_blank" rel="noopener noreferrer"
+                    class="contact-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="contact-card-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Konum</h3>
+                    <p>Kağıthane, İstanbul</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#hero" class="footer-logo">
+                    <span class="logo-bracket">&lt;</span>HS<span class="logo-bracket">/&gt;</span>
+                </a>
+                <p class="footer-text">
+                    Tasarım & Geliştirme — Hüseyin Sarıkaya &copy; <span id="current-year"></span>
+                </p>
+                <div class="footer-socials">
+                    <a href="https://github.com/huseyinsk" target="_blank" rel="noopener noreferrer"
+                        aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/huseyinsarikaya/" target="_blank" rel="noopener noreferrer"
+                        aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:huseyin.sarikaya77@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#hero" class="back-to-top" id="back-to-top" aria-label="Yukarı çık">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- AOS JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
